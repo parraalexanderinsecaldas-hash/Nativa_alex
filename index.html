@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+        integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+        crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="css/mobile.css">
+
+    <title>Nativa | Productos Naturales</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+
+        <!-- NAVBAR -->
+        <nav id="navbar">
+            <div class="container">
+
+                <h1 class="logo">
+                    <a href="index.html">
+                        <img src="img/logo1.png" alt="Nativa">
+                    </a>
+                </h1>
+
+                <ul id="main-nav" class="txt-btn">
+
+                    <li>
+                        <a class="current" href="index.html">
+                            Inicio
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html">
+                            Contacto
+                        </a>
+                    </li>
+
+                    <!-- CARRITO -->
+                    <li>
+                        <a href="carrito.html" class="cart-link">
+                            <i class="fas fa-shopping-cart"></i>
+                            Carrito
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </nav>
+
+
+        <!-- BANNER -->
+        <div id="showcase-home">
+
+            <div class="showcase-banner">
+
+                <h1 class="subpage">
+                    Nativa
+                </h1>
+
+                <p class="large">
+                    Lo natural también puede transformar tu día
+                </p>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- PORTAFOLIO -->
+    <section id="portfolio">
+
+        <div class="container">
+
+            <div class="portfolio-nav">
+                <ul>
+                    <li><a href="#">Todos</a></li>
+                    <li><a href="#">Miel</a></li>
+                    <li><a href="#">Té</a></li>
+                    <li><a href="#">Infusiones</a></li>
+                </ul>
+            </div>
+
+
+            <!-- PRODUCTOS -->
+            <div class="portfolio-grid">
+
+
+                <!-- PRODUCTO 1 -->
+                <article class="box">
+
+                    <a href="portfolio-1.html">
+                        <img src="img/portfolio/miel1.png"
+                            alt="Miel Natural">
+
+                        <div class="producto-info">
+                            <h3>Miel Natural</h3>
+                            <p class="precio">$25.000</p>
+                        </div>
+                    </a>
+
+                    <button class="btn-agregar"
+                        onclick="agregarAlCarrito(
+                            'Miel Natural',
+                            25000,
+                            'img/portfolio/miel1.png'
+                        )">
+
+                        <i class="fas fa-cart-plus"></i>
+                        Agregar al carrito
+
+                    </button>
+
+                </article>
+
+
+                <!-- PRODUCTO 2 -->
+                <article class="box">
+
+                    <a href="portfolio-2.html">
+                        <img src="img/portfolio/tea.jpg"
+                            alt="Té Natural">
+
+                        <div class="producto-info">
+                            <h3>Té Natural</h3>
+                            <p class="precio">$18.000</p>
+                        </div>
+                    </a>
+
+                    <button class="btn-agregar"
+                        onclick="agregarAlCarrito(
+                            'Té Natural',
+                            18000,
+                            'img/portfolio/tea.jpg'
+                        )">
+
+                        <i class="fas fa-cart-plus"></i>
+                        Agregar al carrito
+
+                    </button>
+
+                </article>
+
+
+                <!-- PRODUCTO 3 -->
+                <article class="box">
+
+                    <a href="portfolio-3.html">
+                        <img src="img/portfolio/relax.jpg"
+                            alt="Infusión Relax">
+
+                        <div class="producto-info">
+                            <h3>Infusión Relax</h3>
+                            <p class="precio">$20.000</p>
+                        </div>
+                    </a>
+
+                    <button class="btn-agregar"
+                        onclick="agregarAlCarrito(
+                            'Infusión Relax',
+                            20000,
+                            'img/portfolio/relax.jpg'
+                        )">
+
+                        <i class="fas fa-cart-plus"></i>
+                        Agregar al carrito
+
+                    </button>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer id="main-footer">
+
+        <div class="container">
+
+            <p class="small">
+                © 2026 Nativa | Diseño con identidad natural
+            </p>
+
+            <ul>
+
+                <li>
+                    <a href="#" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" aria-label="TikTok">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="js/carrito.js"></script>
+
+</body>
+</html>
+```
